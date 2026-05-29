@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>律师法题库</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    background:#f7f8fa;
+    color:#111827;
+    min-height:100vh;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:50px 24px;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:30px;
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.header h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#6b7280;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:32px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.06);
+}
+
+.category{
+    color:#2563eb;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.question{
+    font-size:1.4rem;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.answer{
+    display:none;
+    background:#f3f4f6;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.source{
+    margin-top:12px;
+    color:#6b7280;
+    font-size:0.9rem;
+}
+
+.buttons{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+button{
+    border:none;
+    border-radius:12px;
+    padding:12px 20px;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.primary{
+    background:#2563eb;
+    color:white;
+}
+
+.secondary{
+    background:#e5e7eb;
+}
+
+.counter{
+    margin-top:20px;
+    color:#6b7280;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<a href="index.html" class="back">
+← 返回首页
+</a>
+
+<div class="header">
+    <h1>⚖️ 律师法题库</h1>
+    <p>随机抽题模式</p>
+</div>
+
+<div class="card">
+
+```
+<div id="category" class="category">
+    加载中...
+</div>
+
+<div id="question" class="question">
+    正在读取题库...
+</div>
+
+<div id="answerBox" class="answer">
+
+    <strong>答案：</strong>
+
+    <div id="answer"></div>
+
+    <div id="source" class="source"></div>
+
+</div>
+
+<div class="buttons">
+
+    <button class="primary" onclick="showAnswer()">
+        显示答案
+    </button>
+
+    <button class="secondary" onclick="nextQuestion()">
+        下一题
+    </button>
+
+</div>
+
+<div class="counter" id="counter">
+</div>
+```
+
+</div>
+
+</div>
+
+<script>
+
+let questions = [];
+let currentQuestion = null;
+
+fetch('./data/lawyer_law.json')
+.then(response => response.json())
+.then(data => {
+
+    questions = data;
+
+    nextQuestion();
+
+})
+.catch(error => {
+
+    document.getElementById("question").innerText =
+        "❌ 无法读取题库，请检查 data/lawyer_law.json";
+
+    console.error(error);
+
+});
+
+function nextQuestion(){
+
+    if(questions.length === 0){
+        return;
+    }
+
+    const randomIndex =
+        Math.floor(Math.random() * questions.length);
+
+    currentQuestion =
+        questions[randomIndex];
+
+    document.getElementById("category").innerText =
+        currentQuestion.category;
+
+    document.getElementById("question").innerText =
+        currentQuestion.question;
+
+    document.getElementById("answer").innerText =
+        currentQuestion.answer;
+
+    document.getElementById("source").innerText =
+        currentQuestion.source;
+
+    document.getElementById("counter").innerText =
+        `题库总数：${questions.length}`;
+
+    document.getElementById("answerBox").style.display =
+        "none";
+}
+
+function showAnswer(){
+
+    document.getElementById("answerBox").style.display =
+        "block";
+}
+
+</script>
+
+</body>
+</html>
