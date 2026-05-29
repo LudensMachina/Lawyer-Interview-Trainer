@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -100,23 +101,31 @@ footer{
     color:#9ca3af;
     font-size:0.9rem;
 }
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <div class="header">
-        <h1>⚖️ 律师执业面试训练营</h1>
-        <p>
-            Lawyer Interview Trainer · V1
-        </p>
-    </div>
+```
+<div class="header">
+    <h1>⚖️ 律师执业面试训练营</h1>
+    <p>
+        Lawyer Interview Trainer · V1
+    </p>
+</div>
 
-    <div class="grid">
+<div class="grid">
 
-        <div class="card active" onclick="openModule('lawyer')">
+    <a href="lawyer.html">
+        <div class="card active">
             <h2>律师法与执业规范</h2>
             <p>
                 律师法、执业管理办法、职业道德、
@@ -127,85 +136,64 @@ footer{
                 Available
             </div>
         </div>
+    </a>
 
-        <div class="card">
-            <h2>党政知识</h2>
-            <p>
-                两个维护、四个意识、
-                习近平法治思想等。
-            </p>
+    <div class="card">
+        <h2>党政知识</h2>
+        <p>
+            两个维护、四个意识、
+            习近平法治思想等。
+        </p>
 
-            <div class="badge coming">
-                Coming Soon
-            </div>
+        <div class="badge coming">
+            Coming Soon
         </div>
-
-        <div class="card">
-            <h2>案件实务</h2>
-            <p>
-                仲裁、EPC、独立保函、
-                PPP、建设工程等。
-            </p>
-
-            <div class="badge coming">
-                Coming Soon
-            </div>
-        </div>
-
-        <div class="card">
-            <h2>General Questions</h2>
-            <p>
-                自我介绍、职业规划、
-                压力管理、价值观问题。
-            </p>
-
-            <div class="badge coming">
-                Coming Soon
-            </div>
-        </div>
-
-        <div class="card">
-            <h2>🎲 Random Interview</h2>
-            <p>
-                自动随机抽题，
-                模拟真实律协面试场景。
-            </p>
-
-            <div class="badge coming">
-                Coming Soon
-            </div>
-        </div>
-
     </div>
 
-    <footer>
-        Beijing Lawyer Interview Trainer · 2026
-    </footer>
+    <div class="card">
+        <h2>案件实务</h2>
+        <p>
+            仲裁、EPC、独立保函、
+            PPP、建设工程等。
+        </p>
+
+        <div class="badge coming">
+            Coming Soon
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>General Questions</h2>
+        <p>
+            自我介绍、职业规划、
+            压力管理、价值观问题。
+        </p>
+
+        <div class="badge coming">
+            Coming Soon
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🎲 Random Interview</h2>
+        <p>
+            自动随机抽题，
+            模拟真实律协面试场景。
+        </p>
+
+        <div class="badge coming">
+            Coming Soon
+        </div>
+    </div>
 
 </div>
 
-<script>
-function openModule(module){
+<footer>
+    Beijing Lawyer Interview Trainer · 2026
+</footer>
+```
 
-    if(module === "lawyer"){
-
-        alert(
-`律师法模块
-
-下一步准备加入：
-
-✓ 执业准入
-✓ 律师事务所
-✓ 权利与义务
-✓ 律师协会
-✓ 法律责任
-✓ 高频面试题`
-        );
-
-    }
-
-}
-</script>
+</div>
 
 </body>
 </html>
