@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "id": 1,
+    "category": "总则",
+    "subcategory": "律师定义",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师的定义是什么？",
+    "answer": "依法取得律师执业证书，接受委托或者指定，为当事人提供法律服务的执业人员。",
+    "source": "律师法第2条"
+  },
+  {
+    "id": 2,
+    "category": "总则",
+    "subcategory": "三个维护",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师的三个维护是什么？",
+    "answer": "维护当事人合法权益，维护法律正确实施，维护社会公平和正义。",
+    "source": "律师法第2条"
+  },
+  {
+    "id": 3,
+    "category": "总则",
+    "subcategory": "执业原则",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师执业应遵循哪些基本原则？",
+    "answer": "遵守宪法和法律，恪守职业道德和执业纪律；以事实为根据，以法律为准绳；接受国家、社会和当事人的监督。",
+    "source": "律师法第3条"
+  },
+  {
+    "id": 4,
+    "category": "执业许可",
+    "subcategory": "执业条件",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "申请律师执业应具备哪些条件？",
+    "answer": "拥护宪法、通过法考、实习满一年、品行良好。",
+    "source": "律师法第5条"
+  },
+  {
+    "id": 5,
+    "category": "执业许可",
+    "subcategory": "执业条件",
+    "difficulty": 5,
+    "type": "true_false",
+    "question": "通过法考后即可直接执业。",
+    "answer": "错误。还需实习满一年并取得执业证书。",
+    "source": "律师法第5条"
+  },
+  {
+    "id": 6,
+    "category": "执业许可",
+    "subcategory": "申请材料",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "申请律师执业应提交哪些材料？",
+    "answer": "法律职业资格证书、实习考核合格材料、身份证明、律所接收证明。",
+    "source": "律师法第6条"
+  },
+  {
+    "id": 7,
+    "category": "执业许可",
+    "subcategory": "不予颁证",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "哪些情形不得颁发律师执业证书？",
+    "answer": "无民事行为能力或限制民事行为能力；受过刑事处罚（过失犯罪除外）；被开除公职或被吊销律师、公证员执业证书。",
+    "source": "律师法第7条"
+  },
+  {
+    "id": 8,
+    "category": "执业许可",
+    "subcategory": "不予颁证",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "请用口诀概括不予颁发律师执业证书的情形。",
+    "answer": "无、限、刑、开。",
+    "source": "律师法第7条"
+  },
+  {
+    "id": 9,
+    "category": "执业许可",
+    "subcategory": "撤销执业",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "哪些情形会被撤销准予执业决定？",
+    "answer": "欺诈、贿赂等不正当手段取得执业证书；对不符合条件人员准予执业。",
+    "source": "律师法第9条"
+  },
+  {
+    "id": 10,
+    "category": "执业许可",
+    "subcategory": "执业限制",
+    "difficulty": 5,
+    "type": "true_false",
+    "question": "律师可以同时在两个律师事务所执业。",
+    "answer": "错误。",
+    "source": "律师法第10条"
+  },
+  {
+    "id": 11,
+    "category": "执业许可",
+    "subcategory": "执业限制",
+    "difficulty": 5,
+    "type": "true_false",
+    "question": "律师执业受地域限制。",
+    "answer": "错误。",
+    "source": "律师法第10条"
+  },
+  {
+    "id": 12,
+    "category": "执业许可",
+    "subcategory": "兼职限制",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "公务员能否兼任执业律师？",
+    "answer": "不能。",
+    "source": "律师法第11条"
+  },
+  {
+    "id": 13,
+    "category": "律师事务所",
+    "subcategory": "设立条件",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "设立律师事务所应具备哪些条件？",
+    "answer": "名称、住所和章程；符合规定的律师；符合条件的设立人；符合规定的资产。",
+    "source": "律师法第14条"
+  },
+  {
+    "id": 14,
+    "category": "律师事务所",
+    "subcategory": "合伙所",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "设立合伙律师事务所至少需要几名合伙人？",
+    "answer": "三名以上。",
+    "source": "律师法第15条"
+  },
+  {
+    "id": 15,
+    "category": "律师事务所",
+    "subcategory": "个人所",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "设立个人律师事务所需要几年执业经历？",
+    "answer": "五年以上。",
+    "source": "律师法第16条"
+  },
+  {
+    "id": 16,
+    "category": "律师事务所",
+    "subcategory": "收费",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师承办业务时，谁统一接受委托并收取费用？",
+    "answer": "律师事务所统一接受委托并统一收费。",
+    "source": "律师法第25条"
+  },
+  {
+    "id": 17,
+    "category": "律师事务所",
+    "subcategory": "禁止行为",
+    "difficulty": 5,
+    "type": "true_false",
+    "question": "律师事务所可以从事法律服务以外的经营活动。",
+    "answer": "错误。",
+    "source": "律师法第27条"
+  },
+  {
+    "id": 18,
+    "category": "业务范围",
+    "subcategory": "律师业务",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师业务范围主要包括哪些内容？",
+    "answer": "法律顾问、代理诉讼、刑事辩护、申诉代理、调解仲裁、非诉服务、法律咨询与文书代写。",
+    "source": "律师法第28条"
+  },
+  {
+    "id": 19,
+    "category": "权利义务",
+    "subcategory": "拒绝代理",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师接受委托后是否可以随意拒绝代理？",
+    "answer": "原则上不得；但委托事项违法、利用律师服务违法或故意隐瞒重要事实的除外。",
+    "source": "律师法第32条"
+  },
+  {
+    "id": 20,
+    "category": "权利义务",
+    "subcategory": "会见权",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "辩护律师会见犯罪嫌疑人时是否可以被监听？",
+    "answer": "不被监听。",
+    "source": "律师法第33条"
+  },
+  {
+    "id": 21,
+    "category": "权利义务",
+    "subcategory": "阅卷权",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师从哪个阶段开始享有阅卷权？",
+    "answer": "人民检察院审查起诉之日起。",
+    "source": "律师法第34条"
+  },
+  {
+    "id": 22,
+    "category": "权利义务",
+    "subcategory": "调查取证",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师调查取证时需要出示什么？",
+    "answer": "律师执业证书和律师事务所证明。",
+    "source": "律师法第35条"
+  },
+  {
+    "id": 23,
+    "category": "权利义务",
+    "subcategory": "保密义务",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师保密义务有哪些例外？",
+    "answer": "准备或正在实施危害国家安全、公共安全以及严重危害他人人身安全犯罪的情况。",
+    "source": "律师法第38条"
+  },
+  {
+    "id": 24,
+    "category": "权利义务",
+    "subcategory": "利益冲突",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师法规定的利益冲突核心要求是什么？",
+    "answer": "不得双方代理，不得代理与本人或近亲属有利益冲突的事务。",
+    "source": "律师法第39条"
+  },
+  {
+    "id": 25,
+    "category": "权利义务",
+    "subcategory": "禁止行为",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师执业中的八项禁止行为有哪些？",
+    "answer": "私收费用、谋取争议权益、恶意串通、违规会见、行贿、伪造证据、非法方式解决争议、扰乱法庭。",
+    "source": "律师法第40条"
+  },
+  {
+    "id": 26,
+    "category": "律师协会",
+    "subcategory": "性质",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "律师协会是什么性质的组织？",
+    "answer": "社会团体法人，是律师的自律性组织。",
+    "source": "律师法第43条"
+  },
+  {
+    "id": 27,
+    "category": "律师协会",
+    "subcategory": "职责",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "律师协会有哪些主要职责？",
+    "answer": "保障执业、行业规范、培训考核、实习管理、奖惩、投诉处理等。",
+    "source": "律师法第46条"
+  },
+  {
+    "id": 28,
+    "category": "法律责任",
+    "subcategory": "第四十七条",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "哪些行为可能被处5000元以下罚款并停止执业三个月以下？",
+    "answer": "多所执业、不正当承揽业务、利益冲突代理、离任限制违规、拒绝法援。",
+    "source": "律师法第47条"
+  },
+  {
+    "id": 29,
+    "category": "法律责任",
+    "subcategory": "第四十八条",
+    "difficulty": 5,
+    "type": "short_answer",
+    "question": "哪些行为可能被处1万元以下罚款并停止执业三至六个月？",
+    "answer": "私自收费、拒绝辩护代理、谋取争议权益、泄露商业秘密或隐私。",
+    "source": "律师法第48条"
+  },
+  {
+    "id": 30,
+    "category": "法律责任",
+    "subcategory": "第四十九条",
+    "difficulty": 5,
+    "type": "interview",
+    "question": "哪些行为情节严重可能被吊销律师执业证书？",
+    "answer": "违规会见、行贿、虚假材料、伪证、恶意串通、扰乱法庭、非法手段解决争议、危害国家安全言论、泄露国家秘密等。",
+    "source": "律师法第49条"
+  }
+]
